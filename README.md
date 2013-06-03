@@ -8,7 +8,7 @@ The CSS selector targets the 'a' element with the corrisponding href attribute. 
 <code>a[href*="github"]{color: #4183c4;}</code>
 
 HTML: stays as simple as a link can be
-<code>&#60;a href="http://example.github.com/project/" &#62;github&#60;/a &#62;</code>
+<code>&#60;a href="http://example.<ins>github</ins>.com/project/" &#62;github&#60;/a &#62;</code>
 
 features :
 It's awesome.
