@@ -22,6 +22,8 @@ a[href*="behance"]:hover{color: #053eff;}
 a[href*="blogger"]:hover{color: #fc4f08;}
 /*CARBONMADE*/
 a[href*="carbonmade"]:hover{color: #613854;}
+/*CODE SCHOOL*/
+a[href*="codeschool"]:hover{color: #3d4944;}
 /*DELICIOUS*/
 a[href*="delicious"]:hover, a[href*="delicio"]:hover{color: #205cc0;}
 /*DESIGNMOO*/
