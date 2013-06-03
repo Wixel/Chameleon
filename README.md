@@ -26,7 +26,7 @@ HTML stays as simple as a link can be
 3. Add the class 'color-back' to "body" or the div if the background is a color.
 4. Remember "a:hover" must be after all selectors.
 5. Type a link and see the awesomeness at work.
-6. Remember your manners and thank me (@nicovanzyl actually I would just like your feedback and what you would want to see added to chameleon).
+6. Tell me what you think on twitter (<a href="http://twitter.com/nicovanzyl">@nicovanzyl</a>).
 
 ###Demo
 Check out a demo <a href="http://nicovanzyl.com/tools/chameleon/">here</a>
