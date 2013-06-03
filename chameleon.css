@@ -105,9 +105,11 @@ a[href*="thenextweb"]{color: #ef4423;}
 /*TUMBLR*/
 a[href*="tumblr"]{color: #34526f;}
 /*TWITTER*/
-a[href*="twitter"]{color: #00a0d1;}
+a[href*="twitter"],a[href*="t.co"]{color: #00a0d1;}
 /*VIMEO*/
 a[href*="vimeo"]{color: #86c9ef;}
+/*VINE*/
+a[href*="vine.co"]{color: #00a478;}
 /*WORDPRESS*/
 a[href*="wordpress"]{color: #21759b;}
 /*YAHOO*/
