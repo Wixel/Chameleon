@@ -1,7 +1,14 @@
 Chameleon
 =========
 
-Collection of CSS selectors that change link colors to the color of the site it's linking to
+Collection of CSS selectors that change link colors to the color of the site it's linking to.
+
+Example:
+The CSS selector targets the 'a' element with the corrisponding href attribute. in this case 'github'
+<code>a[href*="github"]{color: #4183c4;}</code>
+
+HTML: stays as simple as a link can be
+<code><a href="http://example.github.com/project/">github</a></code>
 
 features :
 It's awesome.
