@@ -107,9 +107,11 @@ a[href*="thenextweb"]:hover{color: #ef4423;}
 /*TUMBLR*/
 a[href*="tumblr"]:hover{color: #34526f;}
 /*TWITTER*/
-a[href*="twitter"]:hover{color: #00a0d1;}
+a[href*="twitter"]:hover,a[href*="t.co"]:hover{color: #00a0d1;}
 /*VIMEO*/
 a[href*="vimeo"]:hover{color: #86c9ef;}
+/*VINE*/
+a[href*="vine.co"]:hover{color: #00a478;}
 /*WORDPRESS*/
 a[href*="wordpress"]:hover{color: #21759b;}
 /*YAHOO*/
