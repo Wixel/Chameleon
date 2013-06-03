@@ -1,26 +1,4 @@
-/* Chameleon:hover css file
-
-Chameleon is a collection of CSS selectors that change link colors to the color of the site it's linking to. 
-This awesomeness was created by Nico van Zyl(http://nicovanzyl.com) You may use and abuse it as you wish just smile
-or be nice. Chameleon is licensed under the &#9786; license. (http://licence.visualidiot.com/).
-
-features :
--It's awesome.
--Hopefully works on any color background (if not just play around with text-shadow).
--Most sites colors (worth linking to) are included.
--Awesome hover effect just to add to the awesomeness.
--It's fairly easy to implement.
--Did I mention it's awesome?
-
-Adding it to your site :
-1.Add the chameleon.css file to your sites folder.
-2.Link to the .css file in your sites header.
-3.Add the class 'color-back' to <body> or the div if the background is a color.
-4.Type a link and see the awesomeness at work.
-5.Remember your manners and thank me (@nicovanzyl actually I would just like your feedback and what you would
- want to see added to chameleon).
-
- */
+/* Chameleon:hover css file*/
 
 /*THE-LINK-COLORS------------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------------------*/
