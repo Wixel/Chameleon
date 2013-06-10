@@ -1,80 +1,175 @@
 <!doctype html>
 
 <!--File used for local example-->
+<html><head>
 
-<head>
 <title>
-Chameleon
+
+Chameleon | By Nico van Zyl
+
 </title>
-<link rel="stylesheet" type="text/css" media="all" href="chameleon.css"/>
+
 <style>
-body{
-	background-color: #eeeeee;
-	text-align: left;
-	font-family: 'helvetica';
-}
-.light-back{
-	background-color: #ffffff;
-	color: #2d2d2d;
-	width:45.5%;
-	float: left;
-	padding: 2%;
-	border-radius: 5px;
-	border: 1px solid #ccc;
-	box-shadow: inset 0px 3px 5px #ccc;
-}
-.dark-back{
-	background-color: #222;
-	color: #eeeeee;
-	width:45.5%;
-	float: right;
-	padding: 2%;
-	border-radius: 5px;
-	border: 1px solid #000;
-	box-shadow: inset 0px 3px 5px #000;
-}
-a:hover{ color: black;}
-.heading{
-	display: block;
-	text-align: center;
-	color: #fff;
-	text-shadow: -1px -1px 0px #ccc, -2px -2px 0px #fff;
-}
-.main{
-	background-color: #ffffff;
-	color: #2d2d2d;
-	display: block;
-	padding: 2%;
-	border-radius: 5px;
-	border: 1px solid #ccc;
-}
-</style>
-</head>
-<body>
-	<h1 class="heading">Chameleon</h1>
-	<p class="main">Chameleon is a collection of CSS selectors that change link colors to the color of the site it's linking to. This awesomeness was created by <a href="http://nicovanzyl.com">Nico van Zyl</a>. Follow me on <a href="http://twitter.com/nicovanzyl/">twitter</a> (See how it worked there?). You may use and abuse it as you wish just smile or be nice. Chameleon is licensed under the &#9786; license. (http://licence.visualidiot.com/). <a href="chameleon.zip">Download Chameleon.zip(6kb)</a> (Update: <a href="chameleon_hover/hover.html">Hover</a> version included)</p>
-		<ul><b>features :</b>
-			<li>It's awesome.</li>
-			<li>Hopefully works on any color background (if not just play around with text-shadow).</li>
-			<li>Most sites colors (worth linking to) are included.</li>
-			<li>Awesome hover effect just to add to the awesomeness.</li>
-			<li>It's fairly easy to implement.</li>
-			<li>Did I mention it's awesome?</li>
-		</ul>
-		<hr>
-		<ol><b>Adding it to your site :</b>
-			<li>Add the chameleon.css file to your sites folder.</li>
-			<li>Link to the .css file in your sites header.</li>
-			<li>Add the class 'color-back' to "body" or the div if the background is a color.</li>
-			<li>Remember "a:hover" must be after all selectors.</li>
-			<li>Type a link and see the awesomeness at work.</li>
-			<li>Remember your manners and thank me (@nicovanzyl actually I would just like your feedback and what you would want to see added to chameleon).</li>
-		</ol>
-		<hr>
+
+/*styles just for demo*/
+*{ padding:0; margin:0;}
+body{ font-family: 'helvetica', arial, serif; line-height: 1.6em; font-size: 1.08em;}
+p{padding: 5% 20%; text-align: justify;}
+p.light{ background: #ccc; color: rgba(34, 34, 34, 0.5);}
+p.dark{background: rgba(34, 34, 34, 1); color: rgba(255, 255, 255, 0.5);}
+p.aside{background: #ffffff; color: rgba(34, 34, 34, 0.5); font-size: 3em; text-align: center; line-height: 1.8em; font-weight: bold;}
+/*---end---*/
+
+/*THE-LINK-COLORS------------*/
+/*ABOUT.ME*/
+a[href*="about.me"]{color: #00405d;}
+/*ADOBE*/
+a[href*="adobe"]{color: #ff0000;}
+/*AIM*/
+a[href*="aim"]{color: #fcd20b;}
+/*AMAZON*/
+a[href*="amazon"]{color: #e47911;}
+/*ANDROID*/
+a[href*="android"]{color: #a4c639;}
+/*AOL*/
+a[href*="aol"]{color: #0060A3;}
+/*BEHANCE*/
+a[href*="behance"]{color: #053eff;}
+/*BLOGGER*/
+a[href*="blogger"]{color: #fc4f08;}
+/*CARBONMADE*/
+a[href*="carbonmade"]{color: #613854;}
+/*DELICIOUS*/
+a[href*="delicious"], a[href*="delicio"]{color: #205cc0;}
+/*DESIGNMOO*/
+a[href*="designmoo"]{color: #e54a4f;}
+/*DEVIANTART*/
+a[href*="deviantart"]{color: #4e6252;}
+/*DISQUS*/
+a[href*="disqus"]{color: #db7132;}
+/*DRIBBBLE*/
+a[href*="dribbble"]{color: #ea4c89;}
+/*DROPBOX*/
+a[href*="dropbox"]{color: #3d9ae8;}
+/*DRUPAL*/
+a[href*="drupal"]{color: #0c76ab;}
+/*EBAY*/
+a[href*="ebay"]{color: #89c507;}
+/*ENGADGET*/
+a[href*="engadget"]{color: #00bdf6;}
+/*ENVATO*/
+a[href*="envato"]{color: #528036}
+/*ETSY*/
+a[href*="etsy"]{color: #eb6d20;}
+/*EVERNOTE*/
+a[href*="evernote"]{color: #5ba525;}
+/*FACEBOOK*/
+a[href*="facebook"]{color: #3b5998;}
+/*FLICKR*/
+a[href*="flickr"]{color: #ff0084;}
+/*FORRST*/
+a[href*="forrst"]{color: #5b9a68;}
+/*FOURSQUARE*/
+a[href*="foursquare"]{color: #25a0ca;}
+/*GETGLUE*/
+a[href*="getglue"]{color: #2d75a2;}
+/*GITHUB*/
+a[href*="github"]{color: #4183c4;}
+/*GOOGLE+*/
+a[href*="plus.google"]{color: #db4a39;}
+/*GOOGLE*/
+a[href*="google"]{color: #0266c8;}
+/*GROOVESHARK*/
+a[href*="grooveshark"]{color: #f77f00;}
+/*IMDB*/
+a[href*="imdb"]{color: #f3ce13;}
+/*INSTAGRAM*/
+a[href*="instagram"],a[href*="instagr"]{color: #634d40;}
+/*KICKSTARTER*/
+a[href*="kickstarter"]{color: #87c442;}
+/*LASTFM*/
+a[href*="last"]{color: #c3000d;}
+/*LINKEDIN*/
+a[href*="linkedin"]{color: #0e76a8;}
+/*MEETUP*/
+a[href*="meetup"]{color: #e51937;}
+/*NICOVANZYL*/
+a[href*="nicovanzyl"]{color: #ff6000;}
+/*PATH*/
+a[href*="path"]{color: #e41f11;}
+/*PAYPAL*/
+a[href*="paypal"]{color: #3b7bbf;}
+/*PINTEREST*/
+a[href*="pinterest"]{color: #910101;}
+/*READABILITY*/
+a[href*="readability"]{color: #9c0000;}
+/*RSS*/
+a[href*="rss"]{color: #ee802f;}
+/*SKYPE*/
+a[href*="skype"]{color: #00aff0;}
+/*SOUNDCLOUD*/
+a[href*="soundcloud"]{color: #ff7700;}
+/*SPOTIFY*/
+a[href*="spotify"]{color: #64b41a;}
+/*STUMBLEUPON*/
+a[href*="stumbleupon"]{color: #f74425;}
+/*TECHNORATI*/
+a[href*="technorati"]{color: #40a800;}
+/*THENEXTWEB*/
+a[href*="thenextweb"]{color: #ef4423;}
+/*TUMBLR*/
+a[href*="tumblr"]{color: #34526f;}
+/*TWITTER*/
+a[href*="twitter"]{color: #00a0d1;}
+/*VIMEO*/
+a[href*="vimeo"]{color: #86c9ef;}
+/*WORDPRESS*/
+a[href*="wordpress"]{color: #21759b;}
+/*YAHOO*/
+a[href*="yahoo"]{color: #720e9e;}
+/*YELP*/
+a[href*="yelp"]{color: #c41200;}
+/*YOUTUBE*/
+a[href*="youtube"]{color: #c4302b;}
+/*ZERPLY*/
+a[href*="zerp"],a[href*="zerply"]{color: #9dcc7a;}
+
+/*other-*/
+a{
+	-webkit-transition:color 0.20s ease-in-out;
+	-moz-transition:color 0.20s ease-in-out;
+	-o-transition:color 0.20s ease-in-out;
+	transition:color 0.20s ease-in-out;
+	text-decoration: none;
 	
-	<h2 class="heading">Examples</h2>
-	<p class="light-back">Lorem <a href="http://adobe.com">adobe</a> dolor sit amet, consectetur <a href="http://aim.com/hkhku/">AIM</a> elit, set <a href="http://about.me/bob">about.me</a> eiusmod tempor incidunt <a href="http://amazon.com/item/789/">amazon</a> labore et dolore magna aliquam. Ut enim ad minim<a href="http://android.apptainment.com"> android</a> veniam, quis nostrud exerc. Irure dolor in reprehend <a href="http://aol.com/eihfiue/efheio/">AOL</a> incididunt ut labore et dolore magna <a href="http://behance.com">behance</a> aliqua. Ut enim ad minim veniam, quis <a href="http://example.blogger.com">blogger</a> nostrud exercitation <a href="http://carbonmade.com/example/">carbonmade</a> ullamco laboris nisi ut aliquip <a href="http://delicio.us">delicious</a> ex ea commodo consequat. Duis aute <a href="http://designmoo.com">designmoo</a> irure dolor in reprehenderit in voluptate <a href="http://deviantart.com/example/example">deviantart</a> velit esse molestaie cillum. Tia non ob ea <a href="http://disqus/709754354354/">disqus</a> soluad incommod quae egen <a href="http://dribbble.com/explore/p=89/">dribbble</a> ium improb fugiend. Officia deserunt mollit anim <a href="http://dropbox.com/example/7897894/image.jpg">dropbox</a> id est laborum Et harumd dereud facilis <a href="http://m.ebay.com/electronics/tv/32-lcd/">ebay</a> est er expedit distinct. Nam liber te conscient <a href="http://engadget.com/2012/07/12/example/">engadget</a> to factor tum poen legum odioque civiuda et tam. <a href="http://tutorials.envato.com/example/">envato</a> Neque pecun modut est neque nonor et imper <a href="http://etsy.com">etsy</a> ned libidig met, consectetur adipiscing elit <a href="http://evernote.com/download/">evernote</a>, sed ut labore et dolore magna <a href="http://facebook.com/example/254245/79070987/">facebook</a> aliquam is nostrud exercitation ullam mmodo <a href="http://flickr.com/image/example.jpg">flickr</a> consequet. Duis aute in voluptate <a href="http://forrst.com/">forrst</a> velit esse cillum dolore eu fugiat <a href="http://foursquare.com">foursquare</a> nulla pariatur. At vver eos et accusam dignissum qui <a href="http://example.github.com/project/">github</a> blandit est praesent. Trenz pruca beynocguon doas nog <a href="http://google.com/">google</a> apoply su trenz ucu hugh rasoluguon monugor <a href="http://grooveshark.com/">grooveshark</a> or trenz ucugwo jag scannar. Wa hava <a href="http://imdb.com/actors/example">IMDB</a> laasad trenzsa gwo producgs su IdfoBraid, yop quiel <a href="http://instagr.am/udygfiusdy/3252">instagram</a> geg ba solaly rasponsubla rof <a href="http://kickstarter.com/startups/example">kickstarter</a> trenzur sala ent dusgrubuguon. Offoctivo <a href="http://last.fm">last.fm</a> immoriatoly, hawrgasi pwicos asi sirucor. Thas <a href="http://linkedin.com/example">linkedin</a> sirutciun applios tyu thuso itoms ghuso <a href="http://meetup.com">meetup</a> pwicos gosi sirucor in mixent gosi <a href="http://path.com/325235/">path</a> sirucor ic mixent ples cak ontisi sowios uf Zerm hawr <a href="https://paypal.com/example">paypal</a> rwivos. Unte af phen neige pheings atoot <a href="http://pinterest.com/pins/70974098/">pinterest</a> Prexs eis phat eit sakem eit vory gast <a href="http://rss.example.com/news">RSS feed</a> te Plok peish ba useing phen roxas. Eslo <a href="http://skype.com/example/">skype</a> idaffacgad gef trenz beynocguon <a href="http://soundcloud.com/example/example/">soundcloud</a> quiel ba trenz Spraadshaag ent <a href="http://spotify.com">spotify</a> trenz dreek wirc procassidt program. Pwico vux <a href="http://stumbleupon.com/example/57234095/">StumbleUpon</a> bolug incluros all uf cak sirucor hawrgasi itoms alung gith cakiw <a href="http://technorati.com/2012/example">technorati</a> nog pwicos. Plloaso mako nuto uf cakso dodtos anr koop <a href="http://thenextweb.com/apple/2012/09/21/iphone5">The next web</a> cupy uf cak vux noaw yerw phuno. Whag schengos, <a href="http://example.tumblr.com/">tumblr</a> uf efed, quiel ba mada su otrenzr <a href="http://twitter.com/example">twitter</a> swipontgwook proudgs hus yag su ba dagarmidad. <a href="http://vimeo.com/436436/">vimeo</a> Plasa maku noga wipont trenzsa <a href="http://example.wordpress.com/">wordpress(.com)</a> schengos ent kaap zux copy wipont trenz <a href="http://yahoo.com/">yahoo</a> kipg naar mixent phona. Cak pwico <a href="http://yelp.com/375092387509/">yelp</a> siructiun ruos nust apoply tyu cak sisulutiun <a href="http://youtube.com/example/957982375/">youtube</a> munityuw uw cak jot scannow. Plasa maku noga wipont <a href="http://zerp.ly/example/">zerply</a> trenzsa schengos ent kaap zux copy wipont trenz kipg naar mixent phona.</p>
-		<p class="dark-back">Lorem <a href="http://adobe.com">adobe</a> dolor sit amet, consectetur <a href="http://aim.com/hkhku/">AIM</a> elit, set <a href="http://about.me/bob">about.me</a> eiusmod tempor incidunt <a href="http://amazon.com/item/789/">amazon</a> labore et dolore magna aliquam. Ut enim ad minim<a href="http://android.apptainment.com"> android</a> veniam, quis nostrud exerc. Irure dolor in reprehend <a href="http://aol.com/eihfiue/efheio/">AOL</a> incididunt ut labore et dolore magna <a href="http://behance.com">behance</a> aliqua. Ut enim ad minim veniam, quis <a href="http://example.blogger.com">blogger</a> nostrud exercitation <a href="http://carbonmade.com/example/">carbonmade</a> ullamco laboris nisi ut aliquip <a href="http://delicio.us">delicious</a> ex ea commodo consequat. Duis aute <a href="http://designmoo.com">designmoo</a> irure dolor in reprehenderit in voluptate <a href="http://deviantart.com/example/example">deviantart</a> velit esse molestaie cillum. Tia non ob ea <a href="http://disqus/709754354354/">disqus</a> soluad incommod quae egen <a href="http://dribbble.com/explore/p=89/">dribbble</a> ium improb fugiend. Officia deserunt mollit anim <a href="http://dropbox.com/example/7897894/image.jpg">dropbox</a> id est laborum Et harumd dereud facilis <a href="http://m.ebay.com/electronics/tv/32-lcd/">ebay</a> est er expedit distinct. Nam liber te conscient <a href="http://engadget.com/2012/07/12/example/">engadget</a> to factor tum poen legum odioque civiuda et tam. <a href="http://tutorials.envato.com/example/">envato</a> Neque pecun modut est neque nonor et imper <a href="http://etsy.com">etsy</a> ned libidig met, consectetur adipiscing elit <a href="http://evernote.com/download/">evernote</a>, sed ut labore et dolore magna <a href="http://facebook.com/example/254245/79070987/">facebook</a> aliquam is nostrud exercitation ullam mmodo <a href="http://flickr.com/image/example.jpg">flickr</a> consequet. Duis aute in voluptate <a href="http://forrst.com/">forrst</a> velit esse cillum dolore eu fugiat <a href="http://foursquare.com">foursquare</a> nulla pariatur. At vver eos et accusam dignissum qui <a href="http://example.github.com/project/">github</a> blandit est praesent. Trenz pruca beynocguon doas nog <a href="http://google.com/">google</a> apoply su trenz ucu hugh rasoluguon monugor <a href="http://grooveshark.com/">grooveshark</a> or trenz ucugwo jag scannar. Wa hava <a href="http://imdb.com/actors/example">IMDB</a> laasad trenzsa gwo producgs su IdfoBraid, yop quiel <a href="http://instagr.am/udygfiusdy/3252">instagram</a> geg ba solaly rasponsubla rof <a href="http://kickstarter.com/startups/example">kickstarter</a> trenzur sala ent dusgrubuguon. Offoctivo <a href="http://last.fm">last.fm</a> immoriatoly, hawrgasi pwicos asi sirucor. Thas <a href="http://linkedin.com/example">linkedin</a> sirutciun applios tyu thuso itoms ghuso <a href="http://meetup.com">meetup</a> pwicos gosi sirucor in mixent gosi <a href="http://path.com/325235/">path</a> sirucor ic mixent ples cak ontisi sowios uf Zerm hawr <a href="https://paypal.com/example">paypal</a> rwivos. Unte af phen neige pheings atoot <a href="http://pinterest.com/pins/70974098/">pinterest</a> Prexs eis phat eit sakem eit vory gast <a href="http://rss.example.com/news">RSS feed</a> te Plok peish ba useing phen roxas. Eslo <a href="http://skype.com/example/">skype</a> idaffacgad gef trenz beynocguon <a href="http://soundcloud.com/example/example/">soundcloud</a> quiel ba trenz Spraadshaag ent <a href="http://spotify.com">spotify</a> trenz dreek wirc procassidt program. Pwico vux <a href="http://stumbleupon.com/example/57234095/">StumbleUpon</a> bolug incluros all uf cak sirucor hawrgasi itoms alung gith cakiw <a href="http://technorati.com/2012/example">technorati</a> nog pwicos. Plloaso mako nuto uf cakso dodtos anr koop <a href="http://thenextweb.com/apple/2012/09/21/iphone5">The next web</a> cupy uf cak vux noaw yerw phuno. Whag schengos, <a href="http://example.tumblr.com/">tumblr</a> uf efed, quiel ba mada su otrenzr <a href="http://twitter.com/example">twitter</a> swipontgwook proudgs hus yag su ba dagarmidad. <a href="http://vimeo.com/436436/">vimeo</a> Plasa maku noga wipont trenzsa <a href="http://example.wordpress.com/">wordpress(.com)</a> schengos ent kaap zux copy wipont trenz <a href="http://yahoo.com/">yahoo</a> kipg naar mixent phona. Cak pwico <a href="http://yelp.com/375092387509/">yelp</a> siructiun ruos nust apoply tyu cak sisulutiun <a href="http://youtube.com/example/957982375/">youtube</a> munityuw uw cak jot scannow. Plasa maku noga wipont <a href="http://zerp.ly/example/">zerply</a> trenzsa schengos ent kaap zux copy wipont trenz kipg naar mixent phona.</p>
-		<p style="display: block;">All links are only for display purposes (so don't expect them to actually work and link to something, if they did cool.). Since links are part of an open web, these words and links should not violate any licence or copyright etc. if they do...any copyright content on this page is property of the respected owner.</p>
-</body>
-</html>
+}
+a:hover{ color: rgba(70, 83, 164, 1);}
+
+/*-------------------------------------------------------------------------------------------------------------------*/
+
+</style>
+
+</head>
+
+<body>
+	<p class="aside">Chameleon: by <a href="http://nicovanzyl.com">Nico van Zyl</a></p>
+
+	<p class="light">Lorem <a href="http://adobe.com">adobe</a> dolor sit amet, consectetur <a href="http://aim.com/hkhku/">AIM</a> elit, set <a href="http://about.me/bob">about.me</a> eiusmod tempor incidunt <a href="http://amazon.com/item/789/">amazon</a> labore et dolore magna aliquam. Ut enim ad minim<a href="http://android.apptainment.com"> android</a> veniam, quis nostrud exerc. Irure dolor in reprehend <a href="http://aol.com/eihfiue/efheio/">AOL</a> incididunt ut labore et dolore magna <a href="http://behance.com">behance</a> aliqua. Ut enim ad minim veniam, quis <a href="http://example.blogger.com">blogger</a> nostrud exercitation <a href="http://carbonmade.com/example/">carbonmade</a> ullamco laboris nisi ut aliquip <a href="http://delicio.us">delicious</a> ex ea commodo consequat. Duis aute <a href="http://designmoo.com">designmoo</a> irure dolor in reprehenderit in voluptate <a href="http://deviantart.com/example/example">deviantart</a> velit esse molestaie cillum. Tia non ob ea <a href="http://disqus/709754354354/">disqus</a> soluad incommod quae egen <a href="http://dribbble.com/explore/p=89/">dribbble</a> ium improb fugiend. Officia deserunt mollit anim <a href="http://dropbox.com/example/7897894/image.jpg">dropbox</a> id est laborum Et harumd dereud facilis <a href="http://m.ebay.com/electronics/tv/32-lcd/">ebay</a> est er expedit distinct. Nam liber te conscient <a href="http://engadget.com/2012/07/12/example/">engadget</a> to factor tum poen legum odioque civiuda et tam. <a href="http://tutorials.envato.com/example/">envato</a> Neque pecun modut est neque nonor et imper <a href="http://etsy.com">etsy</a> ned libidig met, consectetur adipiscing elit <a href="http://evernote.com/download/">evernote</a>, sed ut labore et dolore magna <a href="http://facebook.com/example/254245/79070987/">facebook</a> aliquam is nostrud exercitation ullam mmodo <a href="http://flickr.com/image/example.jpg">flickr</a> consequet. Duis aute in voluptate <a href="http://forrst.com/">forrst</a> velit esse cillum dolore eu fugiat <a href="http://foursquare.com">foursquare</a> nulla pariatur. At vver eos et accusam dignissum qui <a href="http://example.github.com/project/">github</a> blandit est praesent. Trenz pruca beynocguon doas nog <a href="http://google.com/">google</a> apoply su trenz ucu hugh rasoluguon monugor <a href="http://grooveshark.com/">grooveshark</a> or trenz ucugwo jag scannar. Wa hava <a href="http://imdb.com/actors/example">IMDB</a> laasad trenzsa gwo producgs su IdfoBraid, yop quiel <a href="http://instagr.am/udygfiusdy/3252">instagram</a> geg ba solaly rasponsubla rof <a href="http://kickstarter.com/startups/example">kickstarter</a> trenzur sala ent dusgrubuguon. Offoctivo <a href="http://last.fm">last.fm</a> immoriatoly, hawrgasi pwicos asi sirucor. Thas <a href="http://linkedin.com/example">linkedin</a> sirutciun applios tyu thuso itoms ghuso <a href="http://meetup.com">meetup</a> pwicos gosi sirucor in mixent gosi <a href="http://path.com/325235/">path</a> sirucor ic mixent ples cak ontisi sowios uf Zerm hawr <a href="https://paypal.com/example">paypal</a> rwivos. Unte af phen neige pheings atoot <a href="http://pinterest.com/pins/70974098/">pinterest</a> Prexs eis phat eit sakem eit vory gast <a href="http://rss.example.com/news">RSS feed</a> te Plok peish ba useing phen roxas. Eslo <a href="http://skype.com/example/">skype</a> idaffacgad gef trenz beynocguon <a href="http://soundcloud.com/example/example/">soundcloud</a> quiel ba trenz Spraadshaag ent <a href="http://spotify.com">spotify</a> trenz dreek wirc procassidt program. Pwico vux <a href="http://stumbleupon.com/example/57234095/">StumbleUpon</a> bolug incluros all uf cak sirucor hawrgasi itoms alung gith cakiw <a href="http://technorati.com/2012/example">technorati</a> nog pwicos. Plloaso mako nuto uf cakso dodtos anr koop <a href="http://thenextweb.com/apple/2012/09/21/iphone5">The next web</a> cupy uf cak vux noaw yerw phuno. Whag schengos, <a href="http://example.tumblr.com/">tumblr</a> uf efed, quiel ba mada su otrenzr <a href="http://twitter.com/example">twitter</a> swipontgwook proudgs hus yag su ba dagarmidad. <a href="http://vimeo.com/436436/">vimeo</a> Plasa maku noga wipont trenzsa <a href="http://example.wordpress.com/">wordpress(.com)</a> schengos ent kaap zux copy wipont trenz <a href="http://yahoo.com/">yahoo</a> kipg naar mixent phona. Cak pwico <a href="http://yelp.com/375092387509/">yelp</a> siructiun ruos nust apoply tyu cak sisulutiun <a href="http://youtube.com/example/957982375/">youtube</a> munityuw uw cak jot scannow. Plasa maku noga wipont <a href="http://zerp.ly/example/">zerply</a> trenzsa schengos ent kaap zux copy wipont trenz kipg naar mixent phona.</p>
+
+<p class="dark">Lorem <a href="http://adobe.com">adobe</a> dolor sit amet, consectetur <a href="http://aim.com/hkhku/">AIM</a> elit, set <a href="http://about.me/bob">about.me</a> eiusmod tempor incidunt <a href="http://amazon.com/item/789/">amazon</a> labore et dolore magna aliquam. Ut enim ad minim<a href="http://android.apptainment.com"> android</a> veniam, quis nostrud exerc. Irure dolor in reprehend <a href="http://aol.com/eihfiue/efheio/">AOL</a> incididunt ut labore et dolore magna <a href="http://behance.com">behance</a> aliqua. Ut enim ad minim veniam, quis <a href="http://example.blogger.com">blogger</a> nostrud exercitation <a href="http://carbonmade.com/example/">carbonmade</a> ullamco laboris nisi ut aliquip <a href="http://delicio.us">delicious</a> ex ea commodo consequat. Duis aute <a href="http://designmoo.com">designmoo</a> irure dolor in reprehenderit in voluptate <a href="http://deviantart.com/example/example">deviantart</a> velit esse molestaie cillum. Tia non ob ea <a href="http://disqus/709754354354/">disqus</a> soluad incommod quae egen <a href="http://dribbble.com/explore/p=89/">dribbble</a> ium improb fugiend. Officia deserunt mollit anim <a href="http://dropbox.com/example/7897894/image.jpg">dropbox</a> id est laborum Et harumd dereud facilis <a href="http://m.ebay.com/electronics/tv/32-lcd/">ebay</a> est er expedit distinct. Nam liber te conscient <a href="http://engadget.com/2012/07/12/example/">engadget</a> to factor tum poen legum odioque civiuda et tam. <a href="http://tutorials.envato.com/example/">envato</a> Neque pecun modut est neque nonor et imper <a href="http://etsy.com">etsy</a> ned libidig met, consectetur adipiscing elit <a href="http://evernote.com/download/">evernote</a>, sed ut labore et dolore magna <a href="http://facebook.com/example/254245/79070987/">facebook</a> aliquam is nostrud exercitation ullam mmodo <a href="http://flickr.com/image/example.jpg">flickr</a> consequet. Duis aute in voluptate <a href="http://forrst.com/">forrst</a> velit esse cillum dolore eu fugiat <a href="http://foursquare.com">foursquare</a> nulla pariatur. At vver eos et accusam dignissum qui <a href="http://example.github.com/project/">github</a> blandit est praesent. Trenz pruca beynocguon doas nog <a href="http://google.com/">google</a> apoply su trenz ucu hugh rasoluguon monugor <a href="http://grooveshark.com/">grooveshark</a> or trenz ucugwo jag scannar. Wa hava <a href="http://imdb.com/actors/example">IMDB</a> laasad trenzsa gwo producgs su IdfoBraid, yop quiel <a href="http://instagr.am/udygfiusdy/3252">instagram</a> geg ba solaly rasponsubla rof <a href="http://kickstarter.com/startups/example">kickstarter</a> trenzur sala ent dusgrubuguon. Offoctivo <a href="http://last.fm">last.fm</a> immoriatoly, hawrgasi pwicos asi sirucor. Thas <a href="http://linkedin.com/example">linkedin</a> sirutciun applios tyu thuso itoms ghuso <a href="http://meetup.com">meetup</a> pwicos gosi sirucor in mixent gosi <a href="http://path.com/325235/">path</a> sirucor ic mixent ples cak ontisi sowios uf Zerm hawr <a href="https://paypal.com/example">paypal</a> rwivos. Unte af phen neige pheings atoot <a href="http://pinterest.com/pins/70974098/">pinterest</a> Prexs eis phat eit sakem eit vory gast <a href="http://rss.example.com/news">RSS feed</a> te Plok peish ba useing phen roxas. Eslo <a href="http://skype.com/example/">skype</a> idaffacgad gef trenz beynocguon <a href="http://soundcloud.com/example/example/">soundcloud</a> quiel ba trenz Spraadshaag ent <a href="http://spotify.com">spotify</a> trenz dreek wirc procassidt program. Pwico vux <a href="http://stumbleupon.com/example/57234095/">StumbleUpon</a> bolug incluros all uf cak sirucor hawrgasi itoms alung gith cakiw <a href="http://technorati.com/2012/example">technorati</a> nog pwicos. Plloaso mako nuto uf cakso dodtos anr koop <a href="http://thenextweb.com/apple/2012/09/21/iphone5">The next web</a> cupy uf cak vux noaw yerw phuno. Whag schengos, <a href="http://example.tumblr.com/">tumblr</a> uf efed, quiel ba mada su otrenzr <a href="http://twitter.com/example">twitter</a> swipontgwook proudgs hus yag su ba dagarmidad. <a href="http://vimeo.com/436436/">vimeo</a> Plasa maku noga wipont trenzsa <a href="http://example.wordpress.com/">wordpress(.com)</a> schengos ent kaap zux copy wipont trenz <a href="http://yahoo.com/">yahoo</a> kipg naar mixent phona. Cak pwico <a href="http://yelp.com/375092387509/">yelp</a> siructiun ruos nust apoply tyu cak sisulutiun <a href="http://youtube.com/example/957982375/">youtube</a> munityuw uw cak jot scannow. Plasa maku noga wipont <a href="http://zerp.ly/example/">zerply</a> trenzsa schengos ent kaap zux copy wipont trenz kipg naar mixent phona.</p>
+
+<p class="aside">View and download this on <a href="https://github.com/nicovanzyl/Chameleon">github</a></p>
+
+		<script async="" src="//www.google-analytics.com/analytics.js"></script><script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-26168063-2', 'nicovanzyl.com');
+  ga('send', 'pageview');
+
+</script>
+
+
+</body></html>
