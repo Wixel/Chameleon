@@ -62,10 +62,10 @@ a[href*="foursquare"]:hover{color: #25a0ca;}
 a[href*="getglue"]:hover{color: #2d75a2;}
 /*GITHUB*/
 a[href*="github"]:hover{color: #4183c4;}
-/*GOOGLE+*/
-a[href*="plus.google"]:hover{color: #db4a39;}
 /*GOOGLE*/
 a[href*="google"]:hover{color: #0266c8;}
+/*GOOGLE+*/
+a[href*="plus.google"]:hover{color: #db4a39;}
 /*GROOVESHARK*/
 a[href*="grooveshark"]:hover{color: #f77f00;}
 /*IMDB*/
