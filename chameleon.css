@@ -60,10 +60,10 @@ a[href*="foursquare"]{color: #25a0ca;}
 a[href*="getglue"]{color: #2d75a2;}
 /*GITHUB*/
 a[href*="github"]{color: #4183c4;}
-/*GOOGLE+*/
-a[href*="plus.google"]{color: #db4a39;}
 /*GOOGLE*/
 a[href*="google"]{color: #0266c8;}
+/*GOOGLE+*/
+a[href*="plus.google"]{color: #db4a39;}
 /*GROOVESHARK*/
 a[href*="grooveshark"]{color: #f77f00;}
 /*IMDB*/
