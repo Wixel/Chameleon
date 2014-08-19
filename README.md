@@ -22,7 +22,7 @@ HTML stays as simple as a link can be
 
 ###Adding it to your site :
 1. Add the chameleon.css file to your sites folder.
-2. Link to the .css file in your sites header.
+2. Link to the .css file in your sites head.
 3. Add the class 'color-back' to "body" or the div if the background is a color.
 4. Remember "a:hover" must be after all selectors.
 5. Type a link and see the awesomeness at work.
