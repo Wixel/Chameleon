@@ -4,7 +4,22 @@
       {
         "type": "style",
         "src": "./chameleon.css"
+      },
+      {
+        "type": "style",
+        "src": "./additional-link-styles.css",
+        "if": "options.additional"
       }
     ]
+  },
+  "options": {
+    "properties": {
+      "additional": {
+        "title": "Additional styles",
+        "description": "When checked, additional link styles will be included. When unchecked, only the custom link color styles will be included.",
+        "type": "boolean",
+        "default": false
+      }
+    }
   }
 }
