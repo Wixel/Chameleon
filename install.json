@@ -15,8 +15,7 @@
   "options": {
     "properties": {
       "additional": {
-        "title": "Additional styles",
-        "description": "When checked, additional link styles will be included. When unchecked, only the custom link color styles will be included.",
+        "title": "Only show link underlines when the user’s mouse is over the link",
         "type": "boolean",
         "default": false
       }
