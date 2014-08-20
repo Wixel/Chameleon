@@ -1,139 +1,64 @@
-/*THE-LINK-COLORS------------------------------------------------------------------------------------------------------
----------------------------------------------------------------------------------------------------------------------*/
-/*500px*/
-a[href*="500px"]{color: #02adea;}
-/*ABOUT.ME*/
-a[href*="about.me"]{color: #00405d;}
-/*ADOBE*/
-a[href*="adobe"]{color: #ff0000;}
-/*AIM*/
-a[href*="aim"]{color: #fcd20b;}
-/*AMAZON*/
-a[href*="amazon"]{color: #e47911;}
-/*ANDROID*/
-a[href*="android"]{color: #a4c639;}
-/*AOL*/
-a[href*="aol"]{color: #0060A3;}
-/*BEHANCE*/
-a[href*="behance"]{color: #053eff;}
-/*BLOGGER*/
-a[href*="blogger"]{color: #fc4f08;}
-/*CARBONMADE*/
-a[href*="carbonmade"]{color: #613854;}
-/*CODE SCHOOL*/
-a[href*="codeschool"]{color: #3d4944;}
-/*DELICIOUS*/
-a[href*="delicious"], a[href*="delicio"]{color: #205cc0;}
-/*DESIGNMOO*/
-a[href*="designmoo"]{color: #e54a4f;}
-/*DEVIANTART*/
-a[href*="deviantart"]{color: #4e6252;}
-/*DISQUS*/
-a[href*="disqus"]{color: #db7132;}
-/*DRIBBBLE*/
-a[href*="dribbble"]{color: #ea4c89;}
-/*DROPBOX*/
-a[href*="dropbox"]{color: #3d9ae8;}
-/*DRUPAL*/
-a[href*="drupal"]{color: #0c76ab;}
-/*DUNKED*/
-a[href*="dunked"]{color: #2a323a;}
-/*EBAY*/
-a[href*="ebay"]{color: #89c507;}
-/*ENGADGET*/
-a[href*="engadget"]{color: #00bdf6;}
-/*ENVATO*/
-a[href*="envato"]{color: #528036}
-/*ETSY*/
-a[href*="etsy"]{color: #eb6d20;}
-/*EVERNOTE*/
-a[href*="evernote"]{color: #5ba525;}
-/*FACEBOOK*/
-a[href*="facebook"]{color: #3b5998;}
-/*FLICKR*/
-a[href*="flickr"]{color: #ff0084;}
-/*FORRST*/
-a[href*="forrst"]{color: #5b9a68;}
-/*FOURSQUARE*/
-a[href*="foursquare"]{color: #25a0ca;}
-/*GETGLUE*/
-a[href*="getglue"]{color: #2d75a2;}
-/*GITHUB*/
-a[href*="github"]{color: #4183c4;}
-/*GOOGLE*/
-a[href*="google"]{color: #0266c8;}
-/*GOOGLE+*/
-a[href*="plus.google"]{color: #db4a39;}
-/*GROOVESHARK*/
-a[href*="grooveshark"]{color: #f77f00;}
-/*IMDB*/
-a[href*="imdb"]{color: #f3ce13;}
-/*INSTAGRAM*/
-a[href*="instagram"],a[href*="instagr"]{color: #634d40;}
-/*KICKSTARTER*/
-a[href*="kickstarter"]{color: #87c442;}
-/*LASTFM*/
-a[href*="last"]{color: #c3000d;}
-/*LINKEDIN*/
-a[href*="linkedin"]{color: #0e76a8;}
-/*MEETUP*/
-a[href*="meetup"]{color: #e51937;}
-/*NICOVANZYL*/
-a[href*="nicovanzyl"]{color: #ff6000;}
-/*PATH*/
-a[href*="path"]{color: #e41f11;}
-/*PAYPAL*/
-a[href*="paypal"]{color: #3b7bbf;}
-/*PINTEREST*/
-a[href*="pinterest"]{color: #910101;}
-/*READABILITY*/
-a[href*="readability"]{color: #9c0000;}
-/*RSS*/
-a[href*="rss"]{color: #ee802f;}
-/*SKYPE*/
-a[href*="skype"]{color: #00aff0;}
-/*SOUNDCLOUD*/
-a[href*="soundcloud"]{color: #ff7700;}
-/*SPOTIFY*/
-a[href*="spotify"]{color: #64b41a;}
-/*STUMBLEUPON*/
-a[href*="stumbleupon"]{color: #f74425;}
-/*TECHNORATI*/
-a[href*="technorati"]{color: #40a800;}
-/*THENEXTWEB*/
-a[href*="thenextweb"]{color: #ef4423;}
-/*TUMBLR*/
-a[href*="tumblr"]{color: #34526f;}
-/*TWITTER*/
-a[href*="twitter"],a[href*="t.co"]{color: #00a0d1;}
-/*VIMEO*/
-a[href*="vimeo"]{color: #86c9ef;}
-/*VINE*/
-a[href*="vine.co"]{color: #00a478;}
-/*WORDPRESS*/
-a[href*="wordpress"]{color: #21759b;}
-/*YAHOO*/
-a[href*="yahoo"]{color: #720e9e;}
-/*YELP*/
-a[href*="yelp"]{color: #c41200;}
-/*YOUTUBE*/
-a[href*="youtube"]{color: #c4302b;}
-/*ZERPLY*/
-a[href*="zerp"],a[href*="zerply"]{color: #9dcc7a;}
-
-/*Customize------------------------------------------------------------------------------------------------------------
----------------------------------------------------------------------------------------------------------------------*/
-a{
-	-webkit-transition:color 0.20s ease-in-out;
-	-moz-transition:color 0.20s ease-in-out;
-	-o-transition:color 0.20s ease-in-out;
-	transition:color 0.20s ease-in-out;
-	text-decoration: none !important;
-	
-}
-a:hover{ text-decoration: underline;}
-.color-back a{
-	text-shadow: 0px 0px 3px rgba(51, 51, 51, 0.6);
-}
-
-/*-------------------------------------------------------------------------------------------------------------------*/
+a[href*="//500px.com"],       a[href*=".500px.com"]       { color: #02adea }
+a[href*="//about.me"],        a[href*=".about.me"]        { color: #00405d }
+a[href*="//adobe.com"],       a[href*=".adobe.com"]       { color: #ff0000 }
+a[href*="//aim.com"],         a[href*=".aim.com"]         { color: #fcd20b }
+a[href*="//amazon.com"],      a[href*=".amazon.com"]      { color: #e47911 }
+a[href*="//android.com"],     a[href*=".android.com"]     { color: #a4c639 }
+a[href*="//aol.com"],         a[href*=".aol.com"]         { color: #0060A3 }
+a[href*="//behance.com"],     a[href*=".behance.com"]     { color: #053eff }
+a[href*="//blogger.com"],     a[href*=".blogger.com"]     { color: #fc4f08 }
+a[href*="//carbonmade.com"],  a[href*=".carbonmade.com"]  { color: #613854 }
+a[href*="//codeschool.com"],  a[href*=".codeschool.com"]  { color: #3d4944 }
+a[href*="//delicious.com"],   a[href*=".delicious.com"]
+a[href*="//delicio.us"],      a[href*=".delicio.us"]      { color: #205cc0 }
+a[href*="//designmoo.com"],   a[href*=".designmoo.com"]   { color: #e54a4f }
+a[href*="//deviantart.com"],  a[href*=".deviantart.com"]  { color: #4e6252 }
+a[href*="//disqus.com"],      a[href*=".disqus.com"]      { color: #db7132 }
+a[href*="//dribbble.com"],    a[href*=".dribbble.com"]    { color: #ea4c89 }
+a[href*="//dropbox.com"],     a[href*=".dropbox.com"]     { color: #3d9ae8 }
+a[href*="//drupal.com"],      a[href*=".drupal.com"]      { color: #0c76ab }
+a[href*="//dunked.com"],      a[href*=".dunked.com"]      { color: #2a323a }
+a[href*="//ebay.com"],        a[href*=".ebay.com"]        { color: #89c507 }
+a[href*="//engadget.com"],    a[href*=".engadget.com"]    { color: #00bdf6 }
+a[href*="//envato.com"],      a[href*=".envato.com"]      { color: #528036 }
+a[href*="//etsy.com"],        a[href*=".etsy.com"]        { color: #eb6d20 }
+a[href*="//evernote.com"],    a[href*=".evernote.com"]    { color: #5ba525 }
+a[href*="//facebook.com"],    a[href*=".facebook.com"]    { color: #3b5998 }
+a[href*="//flickr.com"],      a[href*=".flickr.com"]      { color: #ff0084 }
+a[href*="//forrst.com"],      a[href*=".forrst.com"]      { color: #5b9a68 }
+a[href*="//foursquare.com"],  a[href*=".foursquare.com"]  { color: #25a0ca }
+a[href*="//getglue.com"],     a[href*=".getglue.com"]     { color: #2d75a2 }
+a[href*="//github.com"],      a[href*=".github.com"]      { color: #4183c4 }
+a[href*="//google.com"],      a[href*=".google.com"]      { color: #0266c8 }
+a[href*="//plus.google.com"], a[href*=".plus.google.com"] { color: #db4a39 }
+a[href*="//grooveshark.com"], a[href*=".grooveshark.com"] { color: #f77f00 }
+a[href*="//imdb.com"],        a[href*=".imdb.com"]        { color: #f3ce13 }
+a[href*="//instagram.com"],   a[href*=".instagram.com"]
+a[href*="//instagr.am"],      a[href*=".instagr.am"]      { color: #634d40 }
+a[href*="//kickstarter.com"], a[href*=".kickstarter.com"] { color: #87c442 }
+a[href*="//last.com"],        a[href*=".last.com"]        { color: #c3000d }
+a[href*="//linkedin.com"],    a[href*=".linkedin.com"]    { color: #0e76a8 }
+a[href*="//meetup.com"],      a[href*=".meetup.com"]      { color: #e51937 }
+a[href*="//nicovanzyl.com"],  a[href*=".nicovanzyl.com"]  { color: #ff6000 }
+a[href*="//path.com"],        a[href*=".path.com"]        { color: #e41f11 }
+a[href*="//paypal.com"],      a[href*=".paypal.com"]      { color: #3b7bbf }
+a[href*="//pinterest.com"],   a[href*=".pinterest.com"]   { color: #910101 }
+a[href*="//readability.com"], a[href*=".readability.com"] { color: #9c0000 }
+a[href*="rss"]                                            { color: #ee802f }
+a[href*="//skype.com"],       a[href*=".skype.com"]       { color: #00aff0 }
+a[href*="//soundcloud.com"],  a[href*=".soundcloud.com"]  { color: #ff7700 }
+a[href*="//spotify.com"],     a[href*=".spotify.com"]     { color: #64b41a }
+a[href*="//stumbleupon.com"], a[href*=".stumbleupon.com"] { color: #f74425 }
+a[href*="//technorati.com"],  a[href*=".technorati.com"]  { color: #40a800 }
+a[href*="//thenextweb.com"],  a[href*=".thenextweb.com"]  { color: #ef4423 }
+a[href*="//tumblr.com"],      a[href*=".tumblr.com"]      { color: #34526f }
+a[href*="//twitter.com"],     a[href*=".twitter.com"]
+a[href*="//t.co"],            a[href*=".t.co"]            { color: #00a0d1 }
+a[href*="//vimeo.com"],       a[href*=".vimeo.com"]       { color: #86c9ef }
+a[href*="//vine.co"],         a[href*=".vine.co"]         { color: #00a478 }
+a[href*="//wordpress.com"],   a[href*=".wordpress.com"]   { color: #21759b }
+a[href*="//yahoo.com"],       a[href*=".yahoo.com"]       { color: #720e9e }
+a[href*="//yelp.com"],        a[href*=".yelp.com"]        { color: #c41200 }
+a[href*="//youtube.com"],     a[href*=".youtube.com"]     { color: #c4302b }
+a[href*="//zerp.com"],        a[href*=".zerp.com"]
+a[href*="//zerply.com"],      a[href*=".zerply.com"]      { color: #9dcc7a }

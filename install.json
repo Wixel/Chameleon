@@ -4,7 +4,21 @@
       {
         "type": "style",
         "src": "./chameleon.css"
+      },
+      {
+        "type": "style",
+        "src": "./additional-link-styles.css",
+        "if": "options.additional"
       }
     ]
+  },
+  "options": {
+    "properties": {
+      "additional": {
+        "title": "Only show link underlines when the user’s mouse is over the link",
+        "type": "boolean",
+        "default": false
+      }
+    }
   }
 }
