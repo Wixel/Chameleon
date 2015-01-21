@@ -22,6 +22,7 @@ a[href*="//ebay.com"],        a[href*=".ebay.com"]        { color: #89c507 }
 a[href*="//engadget.com"],    a[href*=".engadget.com"]    { color: #00bdf6 }
 a[href*="//envato.com"],      a[href*=".envato.com"]      { color: #528036 }
 a[href*="//etsy.com"],        a[href*=".etsy.com"]        { color: #eb6d20 }
+a[href*="//ello.co"],         a[href*=".ello.co"]         { color: #333333 }
 a[href*="//evernote.com"],    a[href*=".evernote.com"]    { color: #5ba525 }
 a[href*="//facebook.com"],    a[href*=".facebook.com"]    { color: #3b5998 }
 a[href*="//flickr.com"],      a[href*=".flickr.com"]      { color: #ff0084 }
