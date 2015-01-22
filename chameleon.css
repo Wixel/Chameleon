@@ -18,10 +18,12 @@ a[href*="//dribbble.com"],    a[href*=".dribbble.com"]    { color: #ea4c89 }
 a[href*="//dropbox.com"],     a[href*=".dropbox.com"]     { color: #3d9ae8 }
 a[href*="//drupal.com"],      a[href*=".drupal.com"]      { color: #0c76ab }
 a[href*="//dunked.com"],      a[href*=".dunked.com"]      { color: #2a323a }
+a[href*="//eager.io"],         a[href*=".eager.io"]        { color: #e90f92 }
 a[href*="//ebay.com"],        a[href*=".ebay.com"]        { color: #89c507 }
 a[href*="//engadget.com"],    a[href*=".engadget.com"]    { color: #00bdf6 }
 a[href*="//envato.com"],      a[href*=".envato.com"]      { color: #528036 }
 a[href*="//etsy.com"],        a[href*=".etsy.com"]        { color: #eb6d20 }
+a[href*="//ello.co"],         a[href*=".ello.co"]         { color: #333333 }
 a[href*="//evernote.com"],    a[href*=".evernote.com"]    { color: #5ba525 }
 a[href*="//facebook.com"],    a[href*=".facebook.com"]    { color: #3b5998 }
 a[href*="//flickr.com"],      a[href*=".flickr.com"]      { color: #ff0084 }
