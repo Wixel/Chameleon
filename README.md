@@ -1,11 +1,11 @@
 Chameleon
 =========
 
-Collection of CSS selectors that change link colors to the color of the site it's linking to.
+Collection of CSS selectors that automatically change link colors to the color of the site it's linking to. eg. Github, Facebook
 
 ###Example:
 ####CSS
-The CSS selector targets the 'a' element with the corresponding href attribute. in this case 'github'
+The CSS selector targets the 'a' anchor element with the corresponding href attribute. in this case 'github'
 <code>a[href*="github"]{color: #4183c4;}</code>
 
 ####HTML
@@ -15,17 +15,7 @@ HTML stays as simple as a link can be
 ###features :
 * It's awesome.
 * Hopefully works on any color background (if not just play around with text-shadow).
-* Most sites colors (worth linking to) are included.
-* Awesome hover effect just to add to the awesomeness.
-* It's fairly easy to implement.
+* Most sites are included. Make a PR on issue to add yours if you see it's missing.
+* Hover effect just to add to the awesomeness.
+* ***It's extremely easy to implement. (just add the CSS file to your site)***
 * Did I mention it's awesome?
-
-###Adding it to your site :
-1. Add the chameleon.css (and optional additional-link-styles.css) file to your sites folder.
-2. Link to the .css file(s) in your sites head.
-3. Remember "a:hover" must be after all selectors.
-4. Type a link and see the awesomeness at work.
-5. Tell me what you think on twitter (<a href="http://twitter.com/nicovanzyl">@nicovanzyl</a>).
-
-###Demo
-Check out a demo <a href="http://nicovanzyl.com/tools/chameleon/">here</a>
