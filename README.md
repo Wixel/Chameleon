@@ -15,7 +15,7 @@ HTML stays as simple as a link can be
 ###features :
 * It's awesome.
 * Hopefully works on any color background (if not just play around with text-shadow).
-* Most sites are included. Make a PR on issue to add yours if you see it's missing.
+* Most sites are included. Make a PR or new issue to add yours if you see it's missing.
 * Hover effect just to add to the awesomeness.
 * ***It's extremely easy to implement. (just add the CSS file to your site)***
 * Did I mention it's awesome?
