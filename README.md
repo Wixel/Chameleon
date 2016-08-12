@@ -12,10 +12,9 @@ The CSS selector targets the 'a' anchor element with the corresponding href attr
 HTML stays as simple as a link can be
 <code>&#60;a href="http://example.<ins>github</ins>.com/user/project" &#62;github&#60;/a &#62;</code>
 
-###features :
+###Info :
 * It's awesome.
-* Hopefully works on any color background (if not just play around with text-shadow).
 * Most sites are included. Make a PR or new issue to add yours if you see it's missing.
-* Hover effect just to add to the awesomeness.
 * ***It's extremely easy to implement. (just add the CSS file to your site)***
+* Or add the .scss file to your existing project
 * Did I mention it's awesome?
