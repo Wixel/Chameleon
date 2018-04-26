@@ -1,0 +1,40 @@
+{
+  "name": "chameleon",
+  "version": "2.0.0",
+  "description":
+    "Chameleon is a library of popular brand colors which you can use in your JS/Sass projects",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "sass-export": "^1.0.2"
+  },
+  "scripts": {
+    "test": "dev",
+    "export-json":
+      "sass-export source/_chameleon-lib.scss -a dist/chameleon.json",
+    "dev": "npm run export-json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wixel/Chameleon.git"
+  },
+  "keywords": [
+    "brand",
+    "color",
+    "variables",
+    "twitter",
+    "facebook",
+    "whatsapp",
+    "chameleon",
+    "Wixel",
+    "react",
+    "webpack",
+    "Vue"
+  ],
+  "author": "Nico van Zyl <nico@wixelhq.com> (http://nicovanzyl.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Wixel/Chameleon/issues"
+  },
+  "homepage": "https://github.com/Wixel/Chameleon#readme"
+}

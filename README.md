@@ -1,22 +1,24 @@
-Chameleon
-=========
+# Chameleon
 
-Collection of CSS selectors that automatically change link colors to the color of the site it's linking to. eg. Github, Facebook
+> Chameleon is a library of popular brand colors which you can use in your JS/Sass projects
 
-### Example:
-#### CSS
-The CSS selector targets the 'a' anchor element with the corresponding href attribute. in this case 'github'
+## Install
 
-<code>a[href*="github"]{color: #4183c4;}</code>
+```bash
+npm i -S chameleon
+```
 
-#### HTML
-HTML stays as simple as a link can be
+## Usage
 
-<code>&#60;a href="http://example.<ins>github</ins>.com/user/project" &#62;github&#60;/a &#62;</code>
+@TODO
 
-### Info :
-* It's awesome.
-* Most sites are included. Make a PR or new issue to add yours if you see it's missing.
-* ***It's extremely easy to implement. (just add the CSS file to your site)***
-* Or add the .scss file to your existing project
-* Did I mention it's awesome?
+## License
+
+[MIT](http://vjpr.mit-license.org)
+
+[npm-image]: https://img.shields.io/npm/v/chameleon.svg
+[npm-url]: https://npmjs.org/package/chameleon
+[travis-image]: https://img.shields.io/travis/live-js/chameleon/master.svg
+[travis-url]: https://travis-ci.org/live-js/chameleon
+[coveralls-image]: https://img.shields.io/coveralls/live-js/chameleon/master.svg
+[coveralls-url]: https://coveralls.io/r/live-js/chameleon?branch=master
