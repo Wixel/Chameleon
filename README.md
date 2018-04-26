@@ -10,7 +10,7 @@ npm i -S chameleon
 
 ## Usage
 
-To see the list of available variables [check this file](#), if you can't find the brand you're looking for, [check the contributions guide](#contributions-guide)
+To see the list of available variables [check this file](https://github.com/Wixel/Chameleon/blob/master/source/chameleon.scss), if you can't find the brand you're looking for, [check the contributions guide](#contributions-guide)
 
 @TODO example
 
