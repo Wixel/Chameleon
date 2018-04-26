@@ -10,6 +10,12 @@ npm i -S chameleon
 
 ## Usage
 
+To see the list of available variables [check this file](#), if you can't find the brand you're looking for, [check the contributions guide](#contributions-guide)
+
+@TODO example
+
+## Contributions guide
+
 @TODO
 
 ## License
